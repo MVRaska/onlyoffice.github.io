@@ -1,5 +1,5 @@
 (function(window, undefined) {
-	var URL_TO_PLUGIN = "https://MVRaska.github.io/onlyoffice.github.io/sdkjs-plugins/content/helloworld/";
+	var URL_TO_PLUGIN = "https://github.com/MVRaska/onlyoffice.github.io/blob/master/store/plugin-dev/extension/inject.js";
 	
 	var xhrObj = new XMLHttpRequest();
 	xhrObj.open('GET', URL_TO_PLUGIN + "config.json", false);
